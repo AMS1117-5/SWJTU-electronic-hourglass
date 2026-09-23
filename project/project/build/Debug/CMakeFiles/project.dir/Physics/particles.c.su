@@ -1,0 +1,10 @@
+D:/SWJTU/welcome_gift/project/project/Physics/particles.c:8:17:random_next	24	static
+D:/SWJTU/welcome_gift/project/project/Physics/particles.c:18:13:inside	16	static
+D:/SWJTU/welcome_gift/project/project/Physics/particles.c:23:13:solid	24	static
+D:/SWJTU/welcome_gift/project/project/Physics/particles.c:28:13:try_move	48	static
+D:/SWJTU/welcome_gift/project/project/Physics/particles.c:57:12:gravity_q8	24	static
+D:/SWJTU/welcome_gift/project/project/Physics/particles.c:72:6:Particles_Init	32	static
+D:/SWJTU/welcome_gift/project/project/Physics/particles.c:85:6:Particles_SetMoveGate	24	static
+D:/SWJTU/welcome_gift/project/project/Physics/particles.c:91:6:Particles_Add	32	static
+D:/SWJTU/welcome_gift/project/project/Physics/particles.c:107:6:Particles_GetPixel	24	static
+D:/SWJTU/welcome_gift/project/project/Physics/particles.c:112:6:Particles_Step	168	static

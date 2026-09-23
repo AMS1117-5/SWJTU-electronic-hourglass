@@ -1,0 +1,6 @@
+D:/SWJTU/welcome_gift/project/project/Drivers/buzzer.c:21:6:Buzzer_Stop	8	static
+D:/SWJTU/welcome_gift/project/project/Drivers/buzzer.c:28:13:play_tone	24	static
+D:/SWJTU/welcome_gift/project/project/Drivers/buzzer.c:47:6:Buzzer_Init	32	static
+D:/SWJTU/welcome_gift/project/project/Drivers/buzzer.c:63:6:Buzzer_StartAlarm	16	static
+D:/SWJTU/welcome_gift/project/project/Drivers/buzzer.c:74:6:Buzzer_Update	24	static
+D:/SWJTU/welcome_gift/project/project/Drivers/buzzer.c:95:6:Buzzer_IsPlaying	8	static

@@ -1,0 +1,1 @@
+/usr/bin/cc -fsanitize=address,undefined -Wl,--dependency-file=CMakeFiles/particles_test.dir/link.d CMakeFiles/particles_test.dir/particles_test.c.o CMakeFiles/particles_test.dir/mnt/d/SWJTU/welcome_gift/project/project/Physics/particles.c.o -o particles_test

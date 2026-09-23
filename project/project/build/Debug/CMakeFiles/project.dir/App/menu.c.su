@@ -1,0 +1,4 @@
+D:/SWJTU/welcome_gift/project/project/App/menu.c:9:6:Menu_Select	16	static
+D:/SWJTU/welcome_gift/project/project/App/menu.c:17:10:Menu_GetSelection	8	static
+D:/SWJTU/welcome_gift/project/project/App/menu.c:19:6:Menu_HandleEvents	16	static
+D:/SWJTU/welcome_gift/project/project/App/menu.c:36:6:Menu_Render	16	static

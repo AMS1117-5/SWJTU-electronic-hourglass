@@ -1,0 +1,5 @@
+D:/SWJTU/welcome_gift/project/project/App/app.c:55:13:render	8	static
+D:/SWJTU/welcome_gift/project/project/App/app.c:19:13:enter_mode.constprop	8	static
+D:/SWJTU/welcome_gift/project/project/App/app.c:77:6:App_Init	8	static
+D:/SWJTU/welcome_gift/project/project/App/app.c:91:6:App_Update	16	static
+D:/SWJTU/welcome_gift/project/project/App/app.c:166:9:App_GetMode	0	static

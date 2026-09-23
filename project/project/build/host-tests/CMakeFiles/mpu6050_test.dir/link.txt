@@ -1,0 +1,1 @@
+/usr/bin/cc -fsanitize=address,undefined -Wl,--dependency-file=CMakeFiles/mpu6050_test.dir/link.d CMakeFiles/mpu6050_test.dir/mpu6050_test.c.o CMakeFiles/mpu6050_test.dir/mnt/d/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c.o -o mpu6050_test

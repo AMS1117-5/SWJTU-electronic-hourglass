@@ -1,0 +1,8 @@
+D:/SWJTU/welcome_gift/project/project/App/settings.c:21:6:Settings_Init	0	static
+D:/SWJTU/welcome_gift/project/project/App/settings.c:27:10:Settings_GetGrainIntervalMs	0	static
+D:/SWJTU/welcome_gift/project/project/App/settings.c:28:10:Settings_GetDurationSec	8	static
+D:/SWJTU/welcome_gift/project/project/App/settings.c:32:9:Settings_GetBrightness	0	static
+D:/SWJTU/welcome_gift/project/project/App/settings.c:34:6:Settings_SetGrainIntervalMs	8	static
+D:/SWJTU/welcome_gift/project/project/App/settings.c:46:6:Settings_SetBrightness	0	static
+D:/SWJTU/welcome_gift/project/project/App/settings.c:56:6:Settings_AdjustTime	0	static
+D:/SWJTU/welcome_gift/project/project/App/settings.c:68:6:Settings_AdjustBrightness	0	static

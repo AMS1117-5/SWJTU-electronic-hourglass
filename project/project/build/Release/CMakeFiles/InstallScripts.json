@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/SWJTU/welcome_gift/project/project/build/Release/cmake_install.cmake",
+		"D:/SWJTU/welcome_gift/project/project/build/Release/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,179 @@
+Start testing: Sep 23 15:11 CST
+----------------------------------------------------------
+1/11 Testing: mpu6050_test
+1/11 Test: mpu6050_test
+Command: "/mnt/d/SWJTU/welcome_gift/project/project/build/host-tests/mpu6050_test"
+Directory: /mnt/d/SWJTU/welcome_gift/project/project/build/host-tests
+"mpu6050_test" start time: Sep 23 15:11 CST
+Output:
+----------------------------------------------------------
+PASS: address, init timing, signed six-axis decode, freshness, failures, recovery, tick wrap
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"mpu6050_test" end time: Sep 23 15:11 CST
+"mpu6050_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: motion_test
+2/11 Test: motion_test
+Command: "/mnt/d/SWJTU/welcome_gift/project/project/build/host-tests/motion_test"
+Directory: /mnt/d/SWJTU/welcome_gift/project/project/build/host-tests
+"motion_test" start time: Sep 23 15:11 CST
+Output:
+----------------------------------------------------------
+PASS: measured poses, inverse directions, 3D projection, filtering, stale data, recovery, range, tick wrap
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"motion_test" end time: Sep 23 15:11 CST
+"motion_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: particles_test
+3/11 Test: particles_test
+Command: "/mnt/d/SWJTU/welcome_gift/project/project/build/host-tests/particles_test"
+Directory: /mnt/d/SWJTU/welcome_gift/project/project/build/host-tests
+"particles_test" start time: Sep 23 15:11 CST
+Output:
+----------------------------------------------------------
+PASS: conservation, four-direction settling, flip, fractional speed, walls, corners, capacity, deterministic stress
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"particles_test" end time: Sep 23 15:11 CST
+"particles_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: ocean_test
+4/11 Test: ocean_test
+Command: "/mnt/d/SWJTU/welcome_gift/project/project/build/host-tests/ocean_test"
+Directory: /mnt/d/SWJTU/welcome_gift/project/project/build/host-tests
+"ocean_test" start time: Sep 23 15:11 CST
+Output:
+----------------------------------------------------------
+PASS: 32-pixel rendering, scheduler, stale sensor freeze, resume, flat rest, shake, tick wrap
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ocean_test" end time: Sep 23 15:11 CST
+"ocean_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: hourglass_test
+5/11 Test: hourglass_test
+Command: "/mnt/d/SWJTU/welcome_gift/project/project/build/host-tests/hourglass_test"
+Directory: /mnt/d/SWJTU/welcome_gift/project/project/build/host-tests
+"hourglass_test" start time: Sep 23 15:11 CST
+Output:
+----------------------------------------------------------
+PASS: all 1..10-second rates, runtime changes without reset, tilt, gating, conservation, pause, reversal, completion, tick wrap
+<end of output>
+Test time =   0.95 sec
+----------------------------------------------------------
+Test Passed.
+"hourglass_test" end time: Sep 23 15:11 CST
+"hourglass_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: buzzer_test
+6/11 Test: buzzer_test
+Command: "/mnt/d/SWJTU/welcome_gift/project/project/build/host-tests/buzzer_test"
+Directory: /mnt/d/SWJTU/welcome_gift/project/project/build/host-tests
+"buzzer_test" start time: Sep 23 15:11 CST
+Output:
+----------------------------------------------------------
+PASS: TIM3_CH3 notes, 5-second one-shot, nonblocking catch-up, APB clock, stop, failure, tick wrap
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"buzzer_test" end time: Sep 23 15:11 CST
+"buzzer_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: buttons_test
+7/11 Test: buttons_test
+Command: "/mnt/d/SWJTU/welcome_gift/project/project/build/host-tests/buttons_test"
+Directory: /mnt/d/SWJTU/welcome_gift/project/project/build/host-tests
+"buttons_test" start time: Sep 23 15:11 CST
+Output:
+----------------------------------------------------------
+PASS: physical key mapping, debounce, short/long exclusivity, bounce, tick wrap
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"buttons_test" end time: Sep 23 15:11 CST
+"buttons_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: max7219_test
+8/11 Test: max7219_test
+Command: "/mnt/d/SWJTU/welcome_gift/project/project/build/host-tests/max7219_test"
+Directory: /mnt/d/SWJTU/welcome_gift/project/project/build/host-tests
+"max7219_test" start time: Sep 23 15:11 CST
+Output:
+----------------------------------------------------------
+PASS: cascaded SPI order, CS framing, shutdown/clear/wake, runtime intensity
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"max7219_test" end time: Sep 23 15:11 CST
+"max7219_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: display_test
+9/11 Test: display_test
+Command: "/mnt/d/SWJTU/welcome_gift/project/project/build/host-tests/display_test"
+Directory: /mnt/d/SWJTU/welcome_gift/project/project/build/host-tests
+"display_test" start time: Sep 23 15:11 CST
+Output:
+----------------------------------------------------------
+PASS: calibrated 128-pixel mapping, bounds, clear/fill, brightness range and framebuffer preservation
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"display_test" end time: Sep 23 15:11 CST
+"display_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: settings_ui_test
+10/11 Test: settings_ui_test
+Command: "/mnt/d/SWJTU/welcome_gift/project/project/build/host-tests/settings_ui_test"
+Directory: /mnt/d/SWJTU/welcome_gift/project/project/build/host-tests
+"settings_ui_test" start time: Sep 23 15:11 CST
+Output:
+----------------------------------------------------------
+PASS: settings limits/steps/defaults, 3x5 MM/SS, brightness page, four-item cyclic menu and confirmation priority
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"settings_ui_test" end time: Sep 23 15:11 CST
+"settings_ui_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: app_test
+11/11 Test: app_test
+Command: "/mnt/d/SWJTU/welcome_gift/project/project/build/host-tests/app_test"
+Directory: /mnt/d/SWJTU/welcome_gift/project/project/build/host-tests
+"app_test" start time: Sep 23 15:11 CST
+Output:
+----------------------------------------------------------
+PASS: real key debounce -> menu/settings -> physical brightness, frozen/resumed sand, live rate changes, alarm/menu concurrency, recovery, reboot, tick wrap
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"app_test" end time: Sep 23 15:11 CST
+"app_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 23 15:11 CST

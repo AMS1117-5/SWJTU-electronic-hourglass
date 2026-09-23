@@ -1,0 +1,7 @@
+D:/SWJTU/welcome_gift/project/project/App/ui.c:37:6:Ui_DrawIcon.part.0	32	static
+D:/SWJTU/welcome_gift/project/project/App/ui.c:21:6:Ui_DrawDigit	40	static
+D:/SWJTU/welcome_gift/project/project/App/ui.c:53:13:draw_pair	16	static
+D:/SWJTU/welcome_gift/project/project/App/ui.c:37:6:Ui_DrawIcon	8	static
+D:/SWJTU/welcome_gift/project/project/App/ui.c:59:6:Ui_RenderTime	8	static
+D:/SWJTU/welcome_gift/project/project/App/ui.c:69:6:Ui_RenderBrightness	8	static
+D:/SWJTU/welcome_gift/project/project/App/ui.c:76:6:Ui_RenderError	8	static

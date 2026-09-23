@@ -1,0 +1,1 @@
+/usr/bin/cc -fsanitize=address,undefined -Wl,--dependency-file=CMakeFiles/hourglass_test.dir/link.d CMakeFiles/hourglass_test.dir/hourglass_test.c.o CMakeFiles/hourglass_test.dir/mnt/d/SWJTU/welcome_gift/project/project/App/hourglass.c.o CMakeFiles/hourglass_test.dir/mnt/d/SWJTU/welcome_gift/project/project/Physics/particles.c.o -o hourglass_test

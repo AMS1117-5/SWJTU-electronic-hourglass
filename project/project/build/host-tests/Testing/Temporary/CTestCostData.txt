@@ -1,0 +1,12 @@
+mpu6050_test 1 0.0231085
+motion_test 1 0.0255667
+particles_test 1 0.16218
+ocean_test 1 0.019745
+hourglass_test 1 0.951362
+buzzer_test 1 0.0180563
+buttons_test 1 0.0161942
+max7219_test 1 0.0192714
+display_test 1 0.0191674
+settings_ui_test 1 0.0192852
+app_test 1 0.0327823
+---

@@ -1,0 +1,7 @@
+D:/SWJTU/welcome_gift/project/project/Drivers/buttons.c:19:13:read_button	16	static
+D:/SWJTU/welcome_gift/project/project/Drivers/buttons.c:29:16:short_event	16	static
+D:/SWJTU/welcome_gift/project/project/Drivers/buttons.c:34:16:long_event	16	static
+D:/SWJTU/welcome_gift/project/project/Drivers/buttons.c:39:6:Buttons_Init	40	static
+D:/SWJTU/welcome_gift/project/project/Drivers/buttons.c:55:6:Buttons_Update	40	static
+D:/SWJTU/welcome_gift/project/project/Drivers/buttons.c:98:9:Buttons_TakeEvents	16	static
+D:/SWJTU/welcome_gift/project/project/Drivers/buttons.c:105:6:Buttons_IsPressed	16	static

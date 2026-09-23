@@ -1,0 +1,9 @@
+D:/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c:50:13:read_registers	32	static
+D:/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c:58:13:write_register	32	static
+D:/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c:65:13:fail	16	static
+D:/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c:73:16:signed_be16	24	static
+D:/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c:79:6:Mpu6050_Init	40	static
+D:/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c:92:6:Mpu6050_Update	48	static
+D:/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c:199:15:Mpu6050_GetStatus	8	static
+D:/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c:204:9:Mpu6050_GetWhoAmI	8	static
+D:/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c:209:6:Mpu6050_GetSample	24	static

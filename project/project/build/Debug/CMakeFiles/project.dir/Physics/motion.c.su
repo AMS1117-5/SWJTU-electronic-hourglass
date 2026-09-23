@@ -1,0 +1,6 @@
+D:/SWJTU/welcome_gift/project/project/Physics/motion.c:29:17:integer_sqrt	24	static
+D:/SWJTU/welcome_gift/project/project/Physics/motion.c:53:6:Motion_Init	24	static
+D:/SWJTU/welcome_gift/project/project/Physics/motion.c:67:6:Motion_Update	104	static
+D:/SWJTU/welcome_gift/project/project/Physics/motion.c:151:6:Motion_IsValid	8	static
+D:/SWJTU/welcome_gift/project/project/Physics/motion.c:156:11:Motion_GetDisplayGravity	16	static
+D:/SWJTU/welcome_gift/project/project/Physics/motion.c:161:9:Motion_GetShakeStrength	8	static

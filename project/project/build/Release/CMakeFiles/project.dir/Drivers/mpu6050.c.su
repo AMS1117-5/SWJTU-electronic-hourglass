@@ -1,0 +1,5 @@
+D:/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c:79:6:Mpu6050_Init	16	static
+D:/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c:92:6:Mpu6050_Update	56	static
+D:/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c:199:15:Mpu6050_GetStatus	0	static
+D:/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c:204:9:Mpu6050_GetWhoAmI	0	static
+D:/SWJTU/welcome_gift/project/project/Drivers/mpu6050.c:209:6:Mpu6050_GetSample	16	static

@@ -1,0 +1,5 @@
+D:/SWJTU/welcome_gift/project/project/App/imu_test.c:32:13:draw_glyph	40	static
+D:/SWJTU/welcome_gift/project/project/App/imu_test.c:45:6:ImuTest_Init	0	static
+D:/SWJTU/welcome_gift/project/project/App/imu_test.c:58:6:ImuTest_Update	48	static
+D:/SWJTU/welcome_gift/project/project/App/imu_test.c:93:6:ImuTest_SelectPage	8	static
+D:/SWJTU/welcome_gift/project/project/App/imu_test.c:111:6:ImuTest_Render	24	static

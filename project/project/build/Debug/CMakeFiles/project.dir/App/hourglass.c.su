@@ -1,0 +1,12 @@
+D:/SWJTU/welcome_gift/project/project/App/hourglass.c:37:13:open_cell	16	static
+D:/SWJTU/welcome_gift/project/project/App/hourglass.c:43:13:neck_gate	40	static
+D:/SWJTU/welcome_gift/project/project/App/hourglass.c:71:13:fill_upper_chamber	32	static
+D:/SWJTU/welcome_gift/project/project/App/hourglass.c:93:13:integrate_flow	112	static
+D:/SWJTU/welcome_gift/project/project/App/hourglass.c:138:6:Hourglass_Init	40	static
+D:/SWJTU/welcome_gift/project/project/App/hourglass.c:164:6:Hourglass_Resume	16	static
+D:/SWJTU/welcome_gift/project/project/App/hourglass.c:169:6:Hourglass_SetGrainIntervalMs	40	static
+D:/SWJTU/welcome_gift/project/project/App/hourglass.c:184:10:Hourglass_GetGrainIntervalMs	8	static
+D:/SWJTU/welcome_gift/project/project/App/hourglass.c:189:6:Hourglass_Update	56	static
+D:/SWJTU/welcome_gift/project/project/App/hourglass.c:256:6:Hourglass_Render	24	static
+D:/SWJTU/welcome_gift/project/project/App/hourglass.c:275:6:Hourglass_TakeCompletionEvent	16	static
+D:/SWJTU/welcome_gift/project/project/App/hourglass.c:282:16:Hourglass_GetState	24	static

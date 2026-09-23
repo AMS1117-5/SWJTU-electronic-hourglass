@@ -1,0 +1,9 @@
+D:/SWJTU/welcome_gift/project/project/Drivers/display.c:24:13:map_pixel	32	static
+D:/SWJTU/welcome_gift/project/project/Drivers/display.c:76:6:Display_Init	8	static
+D:/SWJTU/welcome_gift/project/project/Drivers/display.c:84:6:Display_SetBrightness	16	static
+D:/SWJTU/welcome_gift/project/project/Drivers/display.c:97:9:Display_GetBrightness	8	static
+D:/SWJTU/welcome_gift/project/project/Drivers/display.c:102:6:Display_Clear	16	static
+D:/SWJTU/welcome_gift/project/project/Drivers/display.c:110:6:Display_Fill	16	static
+D:/SWJTU/welcome_gift/project/project/Drivers/display.c:118:6:Display_SetPixel	24	static
+D:/SWJTU/welcome_gift/project/project/Drivers/display.c:135:6:Display_GetPixel	16	static
+D:/SWJTU/welcome_gift/project/project/Drivers/display.c:144:6:Display_Update	64	static

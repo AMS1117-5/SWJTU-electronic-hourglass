@@ -23,8 +23,7 @@ static bool valid;
 static Gravity2D gravity;
 static uint8_t shake_strength;
 
-/* Integer square root avoids a software sqrt call on Cortex-M0.
- * Input can span all uint32_t values; result is floor(sqrt(value)).
+/* 整形开方可以避免一次Cortex-M0的math库开方调用。节省时间
  */
 static uint32_t integer_sqrt(uint32_t value)
 {
@@ -96,8 +95,8 @@ void Motion_Update(uint32_t now)
         }
         else
         {
-            /* Configurable low-pass, once per NEW 100 Hz sample.
-             * Q8 preserves fractional sensor counts without integer bias.
+            /* 可设置的低通滤波器，目前设置的是80%的旧值加20%的新值，低通滤波器可以用于
+             * 防止水滴因为传感器微小的抖动而剧烈变化造成观感上的影响
              */
             filtered_q8[axis] += (target - filtered_q8[axis]) *
                                  (int32_t)MOTION_FILTER_NEW_PERCENT / 100;
@@ -110,8 +109,8 @@ void Motion_Update(uint32_t now)
     filter_initialized = true;
     last_sequence = sample.sequence;
 
-    /* Static bias/tilt produces no sustained disturbance. Ignore small noise
-     * and decay the peak once per fresh sample, never once per main loop.
+    /* 静态偏置/倾斜不会产生持续扰动。忽略小噪声，峰值每来一个新样本才衰减一次，
+     * 绝不要每执行一次主循环就衰减一次。
      */
     shake_strength = (uint8_t)((uint16_t)shake_strength * 7U / 8U);
     if (dynamic_sum > MPU6050_ACCEL_LSB_PER_G / 4U)
@@ -134,12 +133,13 @@ void Motion_Update(uint32_t now)
     if ((uint32_t)(sample.timestamp_ms - first_sample_at) < MOTION_SETTLE_MS ||
         magnitude < MPU6050_ACCEL_LSB_PER_G / 5U)
     {
-        /* No stable direction yet, or nearly weightless: never amplify noise. */
+        /* 还没有稳定的方向， */
         return;
     }
 
-    /* Normalize all THREE axes before projection. Normalizing only AX/AY
-     * would turn tiny flat-board noise into full-strength lateral gravity.
+    /* 归一化三轴的数据至一个单位向量，带Z轴数据是因为三轴的数据统一归一化才能更好得呈现现实
+     * 情况。虽然我们的程序不需要Z轴，但也要防止出现如平放时，x为0.22，y为0.21，z为1.0，
+     * 去掉z导致合加速度计算失常
      */
     gravity.x = (float)(filtered[MOTION_DISPLAY_X_AXIS] * MOTION_DISPLAY_X_SIGN) /
                 (float)magnitude;
